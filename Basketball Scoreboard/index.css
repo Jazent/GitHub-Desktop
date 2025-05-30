@@ -1,0 +1,75 @@
+body {
+    margin: 25px;
+    text-align: center;
+    background: #1B244A;
+    color: whitesmoke;
+    font-family: Verdana;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.hscore {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: sbfont;
+    color: #F94F6D;
+    width: 130px;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.gscore {
+    background: #0a0001;
+    font-size: 90px;
+    font-family: sbfont;
+    color: #F94F6D;
+    width: 130px;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.freethrow {
+    
+    background: rgba(27, 36, 74, 0.2);
+    border-radius: 10px 10px;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    height: 40px;
+    width: 40px;
+}
+
+.midrangelayup {
+    
+    background: rgba(27, 36, 74, 0.2);
+    border-radius: 10px 10px;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    height: 40px;
+    width: 40px;
+}
+
+.longrange {
+    
+    background: rgba(27, 36, 74, 0.2);
+    border-radius: 10px 10px;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    height: 40px;
+    width: 40px;
+}
+
+
+@font-face {
+  font-family: "sbfont";
+  src: url('./CursedTimer.ttf') format('WOFF');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
