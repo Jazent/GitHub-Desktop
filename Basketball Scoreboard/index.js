@@ -1,8 +1,8 @@
 let n = +document.getElementById("hscore").innerText
 let hscoreEl = document.getElementById("hscore")
 
-let m = +document.getElementById("gscore").innerText
-let gscoreEl = document.getElementById("gscore")
+let m = +document.getElementById("ascore").innerText
+let ascoreEl = document.getElementById("ascore")
 
 
 
@@ -31,20 +31,20 @@ function hlongrange(){
 
 
 
-function gfreethrow(){
+function afreethrow(){
     m += 1
     console.log(m)
-    gscoreEl.innerText = m
+    ascoreEl.innerText = m
 }
 
-function gmidrangelayup(){
+function amidrangelayup(){
     m += 2
     console.log(m)
-    gscoreEl.innerText = m
+    ascoreEl.innerText = m
 }
 
-function glongrange(){
+function alongrange(){
     m += 3
     console.log(m)
-    gscoreEl.innerText = m
+    ascoreEl.innerText = m
 }
